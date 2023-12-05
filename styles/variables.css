@@ -2,3 +2,31 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+
+:root {
+  --text-color-navigation: #FF0070;
+  --text-color-header-title: #DB00FF;
+  --text-color-decoration: #000028; /* отдельные заголовки черного цвета */
+  --text-color-section-title: #FF0070;
+  --text-color-section: #F1B2CE;
+  --bg-color:#000028;
+  --bg-color-accent-title: #FF0070; 
+  --main-font: 'IBM Plex mono';
+  --header-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+   /* --accent-heading-fs-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --accent-heading-fs-desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem); */
+
+  /* --navigation-text-color: #ff0070;
+  --navigation-text-color-hover: #ff007066;
+  --header-title-text-color: #db00ff;
+  --accent-color: #ff0070;
+  --block-title: #ff0070;
+  --title-text-decor-color: #000028;
+  --text-block-color: #f1b2ce;
+  --decorated-zone-color: #ff0070;
+  --title-text-shadow-color: #ff0070;
+  --background-color: #000028; */
+
+           /* font-size: clamp(7.25rem, 5.7694rem + 6.3174vw, 9.8125rem);
+  --header-text-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem); */
+}

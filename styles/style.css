@@ -1,5 +1,23 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
+
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+  font-family: var(--main-font, sans-serif);
+  background-color: var(--bg-color, #000028);
+  background-image: url(../images/cover-image-dark.png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.shadow-decor {
+  text-shadow: 2px 2px 0 var(--accent-color, #ff0070);
+}
+
+.header__title {
+  font-size: var(--header-font-size);
+  font-weight: 700;
+  line-height: 82.5%;
+  color: var(--text-color-header-title);
 }
