@@ -4,6 +4,7 @@
 */
 
 :root {
+  --rec-color: #FF0070;
   --text-color-navigation: #FF0070;
   --text-color-header-title: #DB00FF;
   --text-color-decoration: #000028; /* отдельные заголовки черного цвета */
@@ -11,8 +12,10 @@
   --text-color-section: #F1B2CE;
   --bg-color:#000028;
   --bg-color-accent-title: #FF0070; 
+  --bg-image: url(../images/cover-image-dark.png);
   --main-font: 'IBM Plex mono';
   --header-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  
    /* --accent-heading-fs-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --accent-heading-fs-desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem); */
 
