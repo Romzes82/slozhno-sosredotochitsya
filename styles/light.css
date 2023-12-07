@@ -23,7 +23,7 @@
   --rec-decoration-clr: transparent; */
 }
 
-.page.theme_light .header_empty-rec-decoration {
+.page.theme_light .header_rec-decoration {
   display: none;
 }
 
