@@ -218,24 +218,22 @@
 .section-how .card-list .card-item .text-accent-bg {
   font-weight: 400;
 }
-/* .card-item-title */
-
-/* .gallery-item-img { */
-
-
-
-
 
 .gallery-item-img {
+    /* display: inline-block; */
     width: 100%;
+    /* height: 100px; */
     object-fit: cover;
+    vertical-align: bottom;
+   /* position: relative;
+    bottom: 1px;  */
 }
 
-/* .gallery-list {
-    display: grid;
-    gap: 20px;
-    grid-template-rows: auto;
-} */
+.gallery-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 
 .a {
   grid-area: a;
