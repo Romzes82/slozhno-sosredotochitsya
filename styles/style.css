@@ -88,14 +88,17 @@
 
 .header__theme-menu-button_active {
   border: 1px solid var(--rec-color);
+  /* pointer-events: none; */
 }
 
-.header__title {
+/* .header__title  */
+.page__title {  
   font-size: var(--header-font-size);
   font-weight: 700;
   line-height: 82.5%;
   color: var(--text-color-header-title, #DB00FF);
   margin-block-start: 2px;
+  /* марджин надо выводить в отдельное правило ... < ... чтоб page__title был универсальным */
   /* margin-block-end: 7px; */
 }
 
@@ -103,7 +106,7 @@
   text-shadow: 2px 2px 0 var(--accent-color, #ff0070);
 }
 
-.header>.shadow-decor {
+.page__title.shadow-decor {
   text-shadow: 4px 4px 0 var(--accent-color, #ff0070);
 }
 
@@ -118,11 +121,11 @@
 
 /* accent-background accent-text ?accent-text_bold? */
 
-.header__text {
+.header__title {
     margin-block-end: 1px;
 }
 
-.text-accent-bg {
+.title-decor {
   color: var(--text-color-decoration, #000028);
   background-color: var(--bg-color-accent-title, #FF0070);
   font-size: inherit;
@@ -206,7 +209,7 @@
   row-gap: 20px;
 }
 
-.card-item-title {
+.card-item__title {
   margin-block-end: 10px;
 }
 
@@ -215,7 +218,7 @@
   row-gap: 50px;
 }
 
-.section-how .card-list .card-item .text-accent-bg {
+.section-how .card-list .card-item .title-decor {
   font-weight: 400;
 }
 
@@ -235,23 +238,27 @@
     gap: 10px;
 }
 
-.a {
+.gallery-item:nth-child(5n+1) {
   grid-area: a;
 }
 
-.b {
+/* .a {
+  grid-area: a;
+} */
+
+.gallery-item:nth-child(5n+2) {
   grid-area: b;
 }
 
-.c {
+.gallery-item:nth-child(5n+3) {
   grid-area: c;
 }
 
-.d {
+.gallery-item:nth-child(5n+4) {
   grid-area: d;
 }
 
-.e {
+.gallery-item:nth-child(5n+5) {
   grid-area: e;
 } 
 
@@ -282,3 +289,7 @@
   }
 
 }  
+
+.footer > .page__title {
+  text-align: center;
+}
