@@ -28,6 +28,7 @@
 }
 
 @media (prefers-color-scheme: light) {
+
   :root {
     --text-color-navigation: #353430;
     --text-color-header-title: #ffc2e6;
