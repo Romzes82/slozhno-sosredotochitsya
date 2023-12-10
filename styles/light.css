@@ -11,13 +11,13 @@
   */
 
   --text-color-navigation: #353430;
-  --text-color-header-title: #FFC2E6;
+  --text-color-header-title: #ffc2e6;
   --text-color-decoration: #353430; /* отдельные заголовки черного цвета */
   --text-color-section-title: #353430;
   --text-color-section: #353430;
-  --bg-color:#FFF1F7;
-  --bg-color-accent-title: #FF8DCB; 
- 
+  --bg-color: #fff1f7;
+  --bg-color-accent-title: #ff8dcb;
+
   --bg-image: url(../images/cover-image-light.png);
   /* --cover-image: url(../images/cover-image-light.png);
   --rec-decoration-clr: transparent; */
@@ -29,14 +29,14 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-  --text-color-navigation: #353430;
-  --text-color-header-title: #FFC2E6;
-  --text-color-decoration: #353430; /* отдельные заголовки черного цвета */
-  --text-color-section-title: #353430;
-  --text-color-section: #353430;
-  --bg-color:#FFF1F7;
-  --bg-color-accent-title: #FF8DCB; 
- 
-  --bg-image: url(../images/cover-image-light.png);
+    --text-color-navigation: #353430;
+    --text-color-header-title: #ffc2e6;
+    --text-color-decoration: #353430; /* отдельные заголовки черного цвета */
+    --text-color-section-title: #353430;
+    --text-color-section: #353430;
+    --bg-color: #fff1f7;
+    --bg-color-accent-title: #ff8dcb;
+
+    --bg-image: url(../images/cover-image-light.png);
   }
 }
