@@ -9,4 +9,7 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --elem-decor-color: #ff0070;
+  --text-color-navigation: #ff0070;
+  --text-color-header-title: #db00ff;
 }
