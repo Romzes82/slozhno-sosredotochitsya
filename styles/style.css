@@ -97,9 +97,14 @@
   font-weight: 700;
   line-height: 82.5%;
   color: var(--text-color-header-title, #db00ff);
+}
+
+.page__title_header {
   margin-block-start: 2px;
-  /* марджин надо выводить в отдельное правило ... < ... чтоб page__title был универсальным */
-  /* margin-block-end: 7px; */
+}
+
+.page__title_footer {
+  text-shadow: 2px 2px 0 var(--accent-color, #ff0070);
 }
 
 .link-decor {
@@ -122,7 +127,7 @@
 
 /* accent-background accent-text ?accent-text_bold? */
 
-.header__title {
+.header__subtitle {
   margin-block-end: 1px;
 }
 
@@ -155,20 +160,21 @@
   align-items: center;
   gap: 10px;
   margin: 2px 10px 0 0;
-  color: var(--elem-decor-color);
+  /* color: var(--elem-decor-color); */
+  color: var(--color-transparent-in-light);
   inset-inline-end: 0;
   inset-block-start: 0;
 }
 
 .header__rec-decoration::after {
   content: '';
-  color: var(--elem-decor-color);
+  color: var(--color-transparent-in-light);
   display: block;
   width: 7px;
   height: 7px;
   border-radius: 50%;
-  box-shadow: 0 0 4px 2px var(--elem-decor-color);
-  background-color: var(--elem-decor-color);
+  box-shadow: 0 0 4px 2px var(--color-transparent-in-light);
+  background-color: var(--color-transparent-in-light);
 }
 
 .decorated-zone::before,
@@ -220,6 +226,11 @@
 
 .section-how .card-list .card-item .title-decor {
   font-weight: 400;
+}
+
+.section-gallery {
+  display: grid;
+  gap: 10px;
 }
 
 .gallery-item-img {
@@ -291,4 +302,10 @@
 
 .footer > .page__title {
   text-align: center;
+
 }
+
+
+/* .page.theme_light .header__rec-decoration {
+  display: none;
+} */

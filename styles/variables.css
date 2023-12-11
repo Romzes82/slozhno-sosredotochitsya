@@ -5,11 +5,12 @@
 
 :root {
   --elem-decor-color: #ff0070;
+  --color-transparent-in-light: var(--elem-decor-color);
   /* --rec-color: #ff0070;
   --corner-color: var(--rec-color, #ff0070); */
   --text-color-navigation: #ff0070;
   --text-color-header-title: #db00ff;
-
+  --color-transparent: transparent;
   --text-color-decoration: #000028; /* отдельные заголовки черного цвета */
   --text-color-section-title: #ff0070;
   --text-color-main: #f1b2ce;

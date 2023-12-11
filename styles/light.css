@@ -10,6 +10,7 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --elem-decor-color: #353430;
+  --color-transparent-in-light: transparent;
   --text-color-navigation: #353430;
   --text-color-header-title: #ffc2e6;
   --text-color-decoration: #353430; /* отдельные заголовки черного цвета */
@@ -25,14 +26,15 @@
   --rec-decoration-clr: transparent; */
 }
 
-.page.theme_light .header__rec-decoration {
+/* .page.theme_light .header__rec-decoration {
   display: none;
-}
+} */
 
 @media (prefers-color-scheme: light) {
 
   :root {
-    --elem-decor-color: #353430;    
+    --elem-decor-color: #353430; 
+    --color-transparent-in-light: transparent;   
     --text-color-navigation: #353430;
     --text-color-header-title: #ffc2e6;
     --text-color-decoration: #353430; /* отдельные заголовки черного цвета */

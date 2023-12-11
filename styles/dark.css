@@ -10,6 +10,7 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --elem-decor-color: #ff0070;
+  --color-transparent-in-light: var(--elem-decor-color);
   --text-color-navigation: #ff0070;
   --text-color-header-title: #db00ff;
 }
