@@ -18,6 +18,7 @@
   --text-color-main: #353430;
   --bg-color: #fff1f7;
   --bg-color-accent-title: #ff8dcb;
+  --accent-color: var(--bg-color-accent-title, #ff8dcb);  
 
   --bg-image: url(../images/cover-image-light.png);
   /* --cover-image: url(../images/cover-image-light.png);
@@ -40,7 +41,7 @@
     --text-color-main: #353430;
     --bg-color: #fff1f7;
     --bg-color-accent-title: #ff8dcb;
-
+    --accent-color: var(--bg-color-accent-title, #ff8dcb);
     --bg-image: url(../images/cover-image-light.png);
   }
 }
