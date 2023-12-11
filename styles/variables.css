@@ -4,7 +4,9 @@
 */
 
 :root {
-  --rec-color: #ff0070;
+  --elem-decor-color: #ff0070;
+  /* --rec-color: #ff0070;
+  --corner-color: var(--rec-color, #ff0070); */
   --text-color-navigation: #ff0070;
   --text-color-header-title: #db00ff;
   --text-color-decoration: #000028; /* отдельные заголовки черного цвета */
