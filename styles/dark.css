@@ -13,4 +13,5 @@
   --color-transparent-in-light: var(--elem-decor-color);
   --text-color-navigation: #ff0070;
   --text-color-header-title: #db00ff;
+  /* background-image: var(--bg-image); */
 }
