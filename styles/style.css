@@ -224,13 +224,35 @@
 
 
 
-
+/* .gallery-list {
+  display: grid;
+  row-gap: 10px;
+  grid-template-rows: 1fr 1fr;
+} */
 
 .gallery-item-img {
     width: 100%;
     object-fit: cover;
+    object-position: top center;;
 }
 
+.gallery-item {
+    width: 100%;
+    object-fit: cover;
+    object-position: top center;;
+}
+
+/* .gallery-item {
+  padding-bottom: 10px;
+} */
+
+.gallery-item:not(:last-child) {
+  padding-bottom: 10px;
+}
+
+/* picture,ul {
+  margin: 0;
+} */
 /* .gallery-list {
     display: grid;
     gap: 20px;
