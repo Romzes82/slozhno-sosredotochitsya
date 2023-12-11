@@ -34,11 +34,14 @@
   gap: 0px;
 } */
 
-@media (min-width: 768px) {
-
+/* @media (min-width: 768px) { */
+  @media (width >= 768px) { 
+  
   .page {
     padding: 20px;
   }
+
+
 }
 
 /* .header,
@@ -202,7 +205,7 @@
   border-block-end: 1px solid var(--elem-decor-color, #ff0070);
   inset-inline-start: 0;
   inset-block-end: 0;
-  object-position: top center;
+  /* object-position: top center; */
 }
 
 .section {
@@ -253,10 +256,6 @@
   grid-area: a;
 }
 
-/* .a {
-  grid-area: a;
-} */
-
 .gallery-item:nth-child(5n + 2) {
   grid-area: b;
 }
@@ -273,12 +272,82 @@
   grid-area: e;
 }
 
+/* .a {
+  grid-area: a;
+} */
+
+/*Start --------------------------------------- 786px --------------------------------------------- Start*/
+
 @media (width >= 768px) {
   /* .rec-decor {
     inset-inline-end: 28px;
     inset-block-start: 20px;
   } */
 
+
+  .page {
+    row-gap: 60px; 
+  } 
+
+  .main {
+    row-gap: 80px; 
+  } 
+  
+  .decorated-zone {
+    height: calc(100vh - 40px);
+  }
+
+  .header__subtitle {
+    justify-self: end;
+    align-self: center;
+    max-inline-size: 365px;
+  }
+
+  .page__title_header {
+    margin-left: -20px;
+    /* font-size: var(--header-text-size); */
+  }
+
+  .section-why {
+    grid-template-columns: 236px 1fr;
+    column-gap: 20px;
+  }
+
+  .section-how {
+  grid-template-columns: 236px 1fr;
+  /* grid-auto-rows: minmax(100px, auto); */
+  grid-template-rows: auto auto;
+  column-gap: 20px;
+    /* grid-template: 
+            "a . b" 1fr
+            "a . c" 20px
+            "a . c" 1em / 20% 20px 1fr;; */
+
+    /* grid-template-columns: 236px 1fr;
+    grid-template-rows: 20px 20px 1fr;
+    column-gap: 20px; */
+  }
+
+  .a {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+  }
+  .b {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  }
+  .c {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+
+  .section-gallery {
+    row-gap: 20px;
+  }
+  
+  .section__title {
+    max-inline-size: 236px;
+  }
   .gallery-item-img {
     object-fit: cover;
     /* object-position: top; */
