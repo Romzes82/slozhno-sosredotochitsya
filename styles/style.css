@@ -59,8 +59,25 @@
 
 .header__theme-menu-button_active {
   border: 1px solid var(--elem-decor-color);
-  /* pointer-events: none; */
+  pointer-events: none;
 }
+
+/* .. */
+
+.header__theme-menu-button:focus {
+  outline: none;
+}
+
+.header__theme-menu-button:focus-visible {
+  border-bottom: 1px solid var(--elem-decor-color);
+  outline: none;
+}
+
+.header__theme-menu-button:hover {
+  outline: 1px solid var(--button-hover-color);
+}
+/* .. */
+
 
 /* .header__title  */
 
@@ -82,6 +99,16 @@
 .link-decor {
   text-decoration: none;
   text-shadow: 2px 2px 0 var(--text_color_shadow, #ff0070);
+}
+
+.link-decor:focus {
+  border: none;
+  outline: 1px solid var(--link-condition-borders-color, #F1B2CE);
+  outline-offset: -1px;
+}
+
+.link-decor:hover {
+  text-decoration:  underline var(--link-condition-borders-color, #F1B2CE);
 }
 
 .shadow-decor {
@@ -237,7 +264,7 @@
   text-align: center;
 }
 
-/*Start --------------------------------------- 786px --------------------------------------------- Start*/
+/*Start --------------------------------------- 768px --------------------------------------------- Start*/
 
 @media (width >= 768px) {
 
@@ -272,6 +299,7 @@
 
   .section-why {
     grid-template-columns: 236px 1fr;
+    /* grid-template-columns: clamp(0.921875rem, -0.0039rem + 1.9287vw, 1.23046875rem) 1fr; */
     column-gap: 20px;
   }
 
@@ -329,7 +357,8 @@
   }
 }
 
-/*End --------------------------------------- >=786px --------------------------------------------- End*/
+/*End --------------------------------------- >=768px --------------------------------------------- End*/
+
 
 /*Start --------------------------------------- <=1024px --------------------------------------------- Start*/
 
@@ -348,7 +377,7 @@
       align-items: center;
 
       /* TO DO !!!!!!!!!!!! */
-      min-width: 230px;
+      min-inline-size: 230px;
   }
  
 .page__title_footer {
@@ -365,13 +394,12 @@
 }
 
   .header__subtitle {
-    /* justify-self: end;
-    align-self: center; */
     max-inline-size: 491px;
   }
 
   .section-why {
     grid-template-columns: 315px 1fr;
+    /* grid-template-columns: minmax(315px, 1fr), 1fr; */
     column-gap: 20px;
   }
 

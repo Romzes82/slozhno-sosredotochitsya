@@ -6,8 +6,6 @@
 :root {
   --elem-decor-color: #ff0070;
   --color-transparent-in-light: var(--elem-decor-color);
-  /* --rec-color: #ff0070;
-  --corner-color: var(--rec-color, #ff0070); */
   --text-color-navigation: #ff0070;
   --text-color-header-title: #db00ff;
   --color-transparent: transparent;
@@ -16,27 +14,11 @@
   --text-color-main: #f1b2ce;
   --bg-color: #000028;
   --bg-color-accent-title: #ff0070;
-  /* --accent-color: var(--bg-color-accent-title, #ff0070);  */
   --text_color_shadow: #ff0070; /* цвет для акцента - shadow в heder, footer, link */
   --bg-image: url(../images/cover-image-dark.png);
   --main-font: 'IBM Plex mono';
   --header-font-size-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --header-font-size-desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-
-  /* --accent-heading-fs-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  --accent-heading-fs-desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem); */
-
-  /* --navigation-text-color: #ff0070;
-  --navigation-text-color-hover: #ff007066;
-  --header-title-text-color: #db00ff;
-  --accent-color: #ff0070;
-  --block-title: #ff0070;
-  --title-text-decor-color: #000028;
-  --text-block-color: #f1b2ce;
-  --decorated-zone-color: #ff0070;
-  --title-text-shadow-color: #ff0070;
-  --background-color: #000028; */
-
-  /* font-size: clamp(7.25rem, 5.7694rem + 6.3174vw, 9.8125rem);
-  --header-text-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem); */
+  --button-hover-color: rgba(255, 0, 112, 0.40);
+  --link-condition-borders-color: var(--text-color-main, #f1b2ce);
 }
