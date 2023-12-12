@@ -199,7 +199,7 @@
 
 .gallery-item-img {
   /* display: inline-block; */
-  width: 100%;
+  width: 100%; /*TO DO*/
   /* height: 100px; */
   object-fit: cover;
   vertical-align: bottom;
@@ -305,8 +305,9 @@
   }
 
   .section__title-galery {
-    max-inline-size: 100%;
+    max-inline-size: 100vw;
   }
+
   .gallery-item-img {
     object-fit: cover;
     /* object-position: top; */
@@ -369,9 +370,22 @@
     max-inline-size: 491px;
   }
 
+  .section-why {
+    grid-template-columns: 315px 1fr;
+    column-gap: 20px;
+  }
+
   .section-what .card-list {
       grid-template-columns: 1fr 1fr 1fr;
       column-gap: 20px;
+  }
+
+  .section__title {
+    max-inline-size: 315px;
+  }
+
+   .section__title-galery {
+    max-inline-size: 100vw;
   }
   
 }
