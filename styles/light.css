@@ -19,11 +19,20 @@
   --text-color-main: #353430;
   --bg-color: #fff1f7;
   --bg-color-accent-title: #ff8dcb;
-  --accent-color: var(--bg-color-accent-title, #ff8dcb);  
+  /* --accent-color: var(--bg-color-accent-title, #ff8dcb);   */
+  --text_color_shadow: #ff8dcb;   /* цвет для акцента - shadow в heder, footer, link */
 
   --bg-image: url(../images/cover-image-light.png);
   /* --cover-image: url(../images/cover-image-light.png);
   --rec-decoration-clr: transparent; */
+  --header-font-size-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --header-font-size-desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+
+  /* @media (width >= 1024px) {
+
+     --accent-color: #ff0070;
+  }   */
+
 }
 
 /* .page.theme_light .header__rec-decoration {
@@ -43,7 +52,16 @@
     --text-color-main: #353430;
     --bg-color: #fff1f7;
     --bg-color-accent-title: #ff8dcb;
-    --accent-color: var(--bg-color-accent-title, #ff8dcb);
+    /* --accent-color: var(--bg-color-accent-title, #ff8dcb); */
+    --text_color_shadow: #ff8dcb; /* цвет для акцента - shadow в heder, footer, link */
     --bg-image: url(../images/cover-image-light.png);
+      --header-font-size-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+      --header-font-size-desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    
+    /* @media (width >= 1024px) {
+    
+      --accent-color: #ff0070;
+   } */
+
   }
 }

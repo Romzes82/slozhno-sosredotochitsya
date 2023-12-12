@@ -13,5 +13,7 @@
   --color-transparent-in-light: var(--elem-decor-color);
   --text-color-navigation: #ff0070;
   --text-color-header-title: #db00ff;
+  --text_color_shadow: #ff0070;
+  /* цвет для акцента - shadow в heder, footer, link */
   /* background-image: var(--bg-image); */
 }
