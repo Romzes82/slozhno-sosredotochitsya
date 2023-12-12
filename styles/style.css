@@ -71,9 +71,9 @@
   color: var(--text-color-header-title, #db00ff);
 }
 
-.page__title_header {
+/* .page__title_header {
   margin-block-start: 2px;
-}
+} */
 
 .page__title_footer {
   text-shadow: 2px 2px 0 var(--text_color_shadow, #ff0070);
