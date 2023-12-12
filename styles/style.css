@@ -384,6 +384,10 @@
     max-inline-size: 315px;
   }
 
+  .section-how {
+    grid-template-columns: 315px 1fr;
+  }
+
    .section__title-galery {
     max-inline-size: 100vw;
   }
