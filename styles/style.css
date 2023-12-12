@@ -22,7 +22,6 @@
   display: grid;
   align-items: center;
   height: calc(100vh - 20px);
-  --asd: calc(100vw>726px);
 }
 
 .header {
@@ -268,8 +267,6 @@
 
 @media (width >= 768px) {
 
-  
-  
   .page {
     row-gap: 80px; 
     padding: 20px;
