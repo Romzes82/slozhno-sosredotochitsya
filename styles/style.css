@@ -61,7 +61,7 @@
   transition-property: outline; */
 
   cursor: pointer;
-  padding: 0px 13px 4px;
+  padding: 1px 13px 4px;
 }
 
 .header__theme-menu-button_active {
@@ -378,15 +378,15 @@
     justify-self: center;
     align-self: start;
     /* height: max-content; */
-    min-inline-size: 240px;
+    min-inline-size: 230px;
   }
 
   .header__theme-menu-list {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    gap: 0;
+    gap: 10px;
   }
 
   /* .header__theme-menu-list {
