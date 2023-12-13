@@ -391,9 +391,9 @@
 
   /* Правило снизу можно убрать, оно написано потому, что автотест в темной теме себя страано ведет с меню в десктоп-версии(у меня 
   в PixelPerfect меню в обеих темах в десктопной версии сопадают). В светлой теме автототест десктоп-версии проходит норм */
-  .page.theme_dark .header__theme-menu-list {
+  /* .page.theme_dark .header__theme-menu-list {
     gap: 20px;
-  }
+  } */
 
   /* .header__theme-menu-list {
       grid-template-columns: 1fr 1fr 1fr;
