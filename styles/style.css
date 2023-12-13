@@ -60,7 +60,7 @@
   transition-property: outline; */
 
   cursor: pointer;
-  padding: 1px 0 4px;
+  padding: 1px 13px 4px;
 }
 
 .header__theme-menu-button_active {
@@ -376,6 +376,7 @@
   .header__theme-menu {
     justify-self: center;
     align-self: start;
+    height: max-content;
   }
 
   .header__theme-menu-list {
