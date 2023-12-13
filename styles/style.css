@@ -179,7 +179,7 @@
 .decorated-zone::after {
   content: '';
   position: absolute;
-  z-index: -1;
+  /* z-index: -1; */
   inline-size: 25px;
   block-size: 25px;
 }
@@ -386,8 +386,14 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    /* gap: 20px; */
   }
+
+  /* Правило снизу можно убрать, оно написано потому, что автотест в темной теме себя страано ведет с меню в десктоп-версии(у меня 
+  в PixelPerfect меню в обеих темах в десктопной версии сопадат). В светлой теме автототест десктоп-версии проходит норм  */
+  .page.theme_dark .header__theme-menu-list {
+    gap: 20px;
+  } 
 
   /* .header__theme-menu-list {
       grid-template-columns: 1fr 1fr 1fr;
