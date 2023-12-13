@@ -61,7 +61,7 @@
   transition-property: outline; */
 
   cursor: pointer;
-  padding: 1px 13px 4px;
+  padding: 1px 0px 4px;
 }
 
 .header__theme-menu-button_active {
@@ -386,7 +386,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 5px;
+    gap: 15px;
   }
 
   /* .header__theme-menu-list {
