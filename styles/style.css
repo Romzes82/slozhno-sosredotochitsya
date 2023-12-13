@@ -61,7 +61,7 @@
   transition-property: outline; */
 
   cursor: pointer;
-  padding: 1px 13px 4px;
+  padding: 0px 13px 4px;
 }
 
 .header__theme-menu-button_active {
@@ -378,7 +378,7 @@
     justify-self: center;
     align-self: start;
     /* height: max-content; */
-    min-inline-size: 230px;
+    min-inline-size: 240px;
   }
 
   .header__theme-menu-list {
