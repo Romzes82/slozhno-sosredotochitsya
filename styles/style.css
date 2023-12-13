@@ -2,9 +2,10 @@
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
-  /* display: grid; */
+  display: grid;
   margin: 0 auto;
-  height: 100vh;
+  /* height: 100vh; */
+  /* block-size: 100vh; */
   row-gap: 50px;
   font-family: var(--main-font), sans-serif;
   font-size: 18px;
@@ -13,7 +14,7 @@
   background-color: var(--bg-color, #000028);
   background-image: var(--bg-image);
   background-attachment: fixed;
-  /* padding: 10px; */
+  padding: 10px;
   background-repeat: no-repeat;
   /* background-position: top center; */
   background-position: center;
@@ -30,8 +31,8 @@
 
 .header {
   grid-template-rows: 1fr min-content 1fr;
-  height: 100vh;
-  /* height: calc(100vh - 20px); */
+  /* height: 100vh; */
+  height: calc(100vh - 20px);
 }
 
 .header__theme-menu {
@@ -245,7 +246,7 @@
 }
 
 /* .gallery-item:nth-child(5n + 1) { */
-.gallery-item:nth-child(1) { 
+.gallery-item:nth-child(1) {
   grid-area: a;
 }
 
@@ -266,7 +267,7 @@
 }
 
 .footer {
-    height: 100vh;
+  height: calc(100vh - 20px);
 }
 
 .footer > .page__title {
