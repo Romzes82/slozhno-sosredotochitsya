@@ -38,6 +38,7 @@
 
 .header__theme-menu {
   justify-self: end;
+  margin-block-start: -4px
 }
 
 .header__theme-menu-list {
@@ -62,7 +63,7 @@
   transition-property: outline; */
 
   cursor: pointer;
-  padding: 1px 15px 4px;
+  padding: 1px 0px 4px;
 }
 
 .header__theme-menu-button_active {
@@ -295,6 +296,10 @@
     row-gap: 80px;
     padding-inline-start: 20px;
     padding-inline-end: 20px;
+  }
+
+  .header__theme-menu {
+    margin-block-start: 0;
   }
 
   .decorated-zone {
