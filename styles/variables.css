@@ -14,11 +14,14 @@
   --text-color-main: #f1b2ce;
   --bg-color: #000028;
   --bg-color-accent-title: #ff0070;
-  --text_color_shadow: #ff0070; /* цвет для акцента - shadow в heder, footer, link */
+  
+  
   --bg-image: url(../images/cover-image-dark.png);
   --main-font: 'IBM Plex mono';
   --header-font-size-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --header-font-size-desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   --button-hover-color: rgba(255, 0, 112, 0.40);
   --link-condition-borders-color: var(--text-color-main, #f1b2ce);
+  --link_color_shadow: #ff0070;
+  --text_color_shadow: var(--link_color_shadow, #ff0070); /* цвет для акцента - shadow в heder, footer, link */
 }
