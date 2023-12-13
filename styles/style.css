@@ -2,10 +2,9 @@
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
-  display: grid;
-  /* margin: 0 auto; */
-  margin: 0;
-  min-height: 100vh;
+  /* display: grid; */
+  margin: 0 auto;
+  height: 100vh;
   row-gap: 50px;
   font-family: var(--main-font), sans-serif;
   font-size: 18px;
@@ -25,7 +24,8 @@
   position: relative;
   display: grid;
   align-items: center;
-  height: calc(100vh - 20px);
+  /* height: calc(100vh - 20px); */
+  height: 100vh;
 }
 
 .header {
@@ -244,23 +244,24 @@
   gap: 10px;
 }
 
-.gallery-item:nth-child(5n + 1) {
+/* .gallery-item:nth-child(5n + 1) { */
+.gallery-item:nth-child(1) { 
   grid-area: a;
 }
 
-.gallery-item:nth-child(5n + 2) {
+.gallery-item:nth-child(2) {
   grid-area: b;
 }
 
-.gallery-item:nth-child(5n + 3) {
+.gallery-item:nth-child(3) {
   grid-area: c;
 }
 
-.gallery-item:nth-child(5n + 4) {
+.gallery-item:nth-child(4) {
   grid-area: d;
 }
 
-.gallery-item:nth-child(5n + 5) {
+.gallery-item:nth-child(5) {
   grid-area: e;
 }
 
