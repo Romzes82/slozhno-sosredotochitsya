@@ -27,5 +27,5 @@
   --button-hover-color: rgba(255, 0, 112, 0.40);
   --link-condition-borders-color: var(--text-color-main, #f1b2ce);
   --link_color_shadow: #ff0070;
-  --text_color_shadow: var(--link_color_shadow, #ff0070); 
+  --text_color_shadow: var(--link_color_shadow, #ff0070);
 }
