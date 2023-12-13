@@ -25,8 +25,8 @@
   position: relative;
   display: grid;
   align-items: center;
-  /* height: calc(100vh - 20px); */
-  height: 100vh;
+  height: calc(100vh - 20px);
+  /* height: 100vh; */
 }
 
 .header {
@@ -55,6 +55,7 @@
   text-transform: lowercase;
   background-color: transparent;
   border: 1px solid transparent;
+  min-inline-size: 70px;
   /* transition-duration: 0.2s;
   transition-property: outline; */
 
