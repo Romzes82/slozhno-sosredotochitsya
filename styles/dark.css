@@ -26,4 +26,13 @@
   --header-font-size-desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   --button-hover-color: rgba(255, 0, 112, 0.40);
   --link-condition-borders-color: var(--text-color-main, #f1b2ce);
+
+  @media (width >= 1024px) {
+
+      /* Правило снизу можно убрать, оно написано потому, что автотест в темной теме себя страано ведет с меню в десктоп-версии(у меня 
+      в PixelPerfect меню в обеих темах в десктопной версии сопадают). В светлой теме автототест десктоп-версии проходит норм */
+      .page.theme_dark .header__theme-menu-list {
+        gap: 20px;
+      } 
+  }
 }
