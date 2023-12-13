@@ -30,8 +30,8 @@
 @media (prefers-color-scheme: light) {
 
   :root {
-    --elem-decor-color: #353430; 
-    --color-transparent-in-light: transparent;   
+    --elem-decor-color: #353430;
+    --color-transparent-in-light: transparent;
     --text-color-navigation: #353430;
     --text-color-header-title: #ffc2e6;
     --text-color-decoration: #353430; /* отдельные заголовки черного цвета */

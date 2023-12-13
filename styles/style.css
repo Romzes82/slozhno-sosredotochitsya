@@ -3,6 +3,7 @@
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   display: grid;
+  margin: 0 auto;
   row-gap: 50px;
   font-family: var(--main-font), sans-serif;
   font-size: 18px;
@@ -26,6 +27,7 @@
 
 .header {
   grid-template-rows: 1fr min-content 1fr;
+  height: 100vh;
   /* height: calc(100vh - 20px); */
 }
 
@@ -259,6 +261,10 @@
   grid-area: e;
 }
 
+.footer {
+    height: 100vh;
+}
+
 .footer > .page__title {
   text-align: center;
 }
@@ -268,13 +274,13 @@
 @media (width >= 768px) {
 
   .page {
-    row-gap: 80px; 
+    row-gap: 80px;
     padding: 20px;
   } 
 
   .main {
     row-gap: 80px; 
-  } 
+  }
   
   .decorated-zone {
     height: calc(100vh - 40px);
