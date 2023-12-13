@@ -61,7 +61,7 @@
   transition-property: outline; */
 
   cursor: pointer;
-  padding: 1px 0px 4px;
+  padding: 1px 15px 4px;
 }
 
 .header__theme-menu-button_active {
