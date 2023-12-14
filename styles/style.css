@@ -4,8 +4,6 @@
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   display: grid;
   margin: 0 auto;
-  /* height: 100vh; */
-  /* block-size: 100vh; */
   row-gap: 40px;
   font-family: var(--main-font), sans-serif;
   font-size: 18px;
@@ -14,9 +12,7 @@
   background-color: var(--bg-color, #000028);
   background-image: var(--bg-image);
   background-attachment: fixed;
-  /* padding: 10px; */
   background-repeat: no-repeat;
-  /*  background-position: top center;  */
   background-position: center;
   background-size: cover;
 }
@@ -26,14 +22,11 @@
   display: grid;
   align-items: center;
   padding: 10px;
-  /* height: calc(100vh - 20px); */
-  /* height: 100vh; */
 }
 
 .header {
   grid-template-rows: 1fr min-content 1fr;
   height: 100vh;
-  /* height: calc(100vh - 20px); */
 }
 
 .header__theme-menu {
@@ -43,13 +36,11 @@
 
 .header__theme-menu-list {
   display: grid;
-  /* width: 70px; */
   gap: 10px;
   list-style: none;
 }
 
 .header__theme-menu-button {
-  /* width: 100%; */
   color: var(--text-color-navigation);
   font-family: inherit;
   font-size: inherit;
@@ -59,9 +50,6 @@
   background-color: transparent;
   border: 1px solid transparent;
   min-inline-size: 70px;
-  /* transition-duration: 0.2s;
-  transition-property: outline; */
-
   cursor: pointer;
   padding: 1px 0px 4px;
 }
@@ -70,8 +58,6 @@
   border: 1px solid var(--elem-decor-color);
   pointer-events: none;
 }
-
-/* .. */
 
 .header__theme-menu-button:focus {
   outline: none;
@@ -85,10 +71,6 @@
 .header__theme-menu-button:hover {
   outline: 1px solid var(--button-hover-color);
 }
-/* .. */
-
-
-/* .header__title  */
 
 .page__title {
   font-size: var(--header-font-size-mobile);
@@ -96,10 +78,6 @@
   line-height: 82.5%;
   color: var(--text-color-header-title, #db00ff);
 }
-
-/* .page__title_header {
-  margin-block-start: 2px;
-} */
 
 .page__title_footer {
   text-shadow: 2px 2px 0 var(--text_color_shadow, #ff0070);
@@ -123,17 +101,6 @@
 .shadow-decor {
   text-shadow: 4px 4px 0 var(--text_color_shadow, #ff0070);
 }
-
-/* .title-decoration {
-    color: var(--text-color-decoration, #000028);
-    background-color: var(--bg-color-accent-title, #FF0070);
-    font-size: inherit;
-    font-weight: 700;
-    line-height: 1.3;
-
-} */
-
-/* accent-background accent-text ?accent-text_bold? */
 
 .header__subtitle {
   margin-block-end: 1px;
@@ -159,8 +126,6 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  /* margin: 2px 10px 0 0; */
-  /* color: var(--elem-decor-color); */
   color: var(--color-transparent-in-light);
   inset-inline-end: 0;
   inset-block-start: 0;
@@ -182,7 +147,6 @@
 .decorated-zone::after {
   content: '';
   position: absolute;
-  /* z-index: -1; */
   inline-size: 25px;
   block-size: 25px;
 }
@@ -190,10 +154,6 @@
 .decorated-zone::before {
   border-inline-end: 1px solid var(--elem-decor-color, #ff0070);
   border-block-start: 1px solid var(--elem-decor-color, #ff0070);
-  /*1rem = 16px.
-   https://css-tricks.com/linearly-scale-font-size-with-css-clamp-based-on-the-viewport/ */
-  /* inset-inline-end: clamp(10px, 0.264rem + 1.541vw, -20px);
-  inset-block-start: clamp(10px, 0.264rem + 1.541vw, -20px); */
   inset-inline-end: 0;
   inset-block-start: 0;
   margin: 10px;
@@ -205,7 +165,6 @@
   inset-inline-start: 0;
   inset-block-end: 0;
   margin: 10px;
-  /* object-position: top center; */
 }
 
 .section {
@@ -239,13 +198,9 @@
 }
 
 .gallery-item-img {
-  /* display: inline-block; */
-  width: 100%; /*TO DO*/
-  /* height: 100px; */
+  width: 100%;
   object-fit: cover;
   vertical-align: bottom;
-  /* position: relative;
-    bottom: 1px;  */
 }
 
 .gallery-list {
@@ -254,7 +209,6 @@
   gap: 10px;
 }
 
-/* .gallery-item:nth-child(5n + 1) { */
 .gallery-item:nth-child(1) {
   grid-area: a;
 }
@@ -289,7 +243,6 @@
 
   .page {
     row-gap: 60px;
-    /* padding: 20px; */
   }
 
   .main {
@@ -335,7 +288,6 @@
 
   .section-why {
     grid-template-columns: 236px 1fr;
-    /* grid-template-columns: clamp(0.921875rem, -0.0039rem + 1.9287vw, 1.23046875rem) 1fr; */
     column-gap: 20px;
   }
 
@@ -374,7 +326,6 @@
 
   .gallery-item-img {
     object-fit: cover;
-    /* object-position: top; */
     block-size: 100%;
     inline-size: 100%;
   }
@@ -403,7 +354,6 @@
   .header__theme-menu {
     justify-self: center;
     align-self: start;
-    /* height: max-content; */
     min-inline-size: 230px;
   }
 
@@ -412,32 +362,11 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    /* gap: 20px;*/
   }
 
-  /* Правило снизу можно убрать, оно написано потому, что автотест в темной теме себя страано ведет с меню в десктоп-версии(у меня 
-  в PixelPerfect меню в обеих темах в десктопной версии сопадают). В светлой теме автототест десктоп-версии проходит норм */
-  /* .page.theme_dark .header__theme-menu-list {
-    gap: 20px;
-  } */
-
-  /* .header__theme-menu-list {
-      grid-template-columns: 1fr 1fr 1fr;
-      gap: 10px;
-      list-style: none;
-      justify-content: center;
-      align-items: center;
-      min-inline-size: 230px; 
-  } */
- 
 .page__title_footer {
   text-shadow: 2px 2px 0 var(--text_color_shadow, #ff0070);
 }
-
-/* .link-decor {
-  text-decoration: none;
-  text-shadow: 2px 2px 0 var(--text_color_shadow, #ff0070);
-} */
 
 .shadow-decor {
   text-shadow: 4px 4px 0 var(--text_color_shadow, #ff0070);
@@ -449,7 +378,6 @@
 
   .section-why {
     grid-template-columns: 315px 1fr;
-    /* grid-template-columns: minmax(315px, 1fr), 1fr; */
     column-gap: 20px;
   }
 
