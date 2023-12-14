@@ -14,12 +14,12 @@
   --text-color-navigation: #ff0070;
   --text-color-header-title: #db00ff;
   --color-transparent: transparent;
-  --text-color-decoration: #000028; /* отдельные заголовки черного цвета */
+  --text-color-decoration: #000028;
   --text-color-section-title: #ff0070;
   --text-color-main: #f1b2ce;
   --bg-color: #000028;
   --bg-color-accent-title: #ff0070;
-  --text_color_shadow: #ff0070; /* цвет для акцента - shadow в heder, footer, link */
+  --text_color_shadow: #ff0070;
   --bg-image: url(../images/cover-image-dark.png);
   --main-font: 'IBM Plex mono';
   --header-font-size-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
