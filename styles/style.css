@@ -26,7 +26,7 @@
 
 .header {
   grid-template-rows: 1fr min-content 1fr;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .header__theme-menu {
@@ -190,7 +190,7 @@
   padding-inline-end: 10px;
 }
 
-.section-how .card-list .card-item .title-decor {
+.reset-text-bold {
   font-weight: 400;
 }
 
@@ -296,17 +296,17 @@
     column-gap: 20px;
   }
 
-  .a {
+  .section__title-section-how {
     grid-column: 1 / 2;
     grid-row: 1 / 3;
   }
 
-  .b {
+  .title-decor-section-how {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
   }
   
-  .c {
+  .card-list-section-how {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
   }

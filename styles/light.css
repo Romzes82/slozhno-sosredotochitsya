@@ -19,8 +19,6 @@
   --bg-color: #fff1f7;
   --bg-color-accent-title: #ff8dcb;
   --bg-image: url(../images/cover-image-light.png);
-  --header-font-size-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  --header-font-size-desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   --button-hover-color: rgba(50, 49, 45, 0.40);
   --link-condition-borders-color: var(--text-color-main, #353430);
   --link_color_shadow: #ff8dcb;
@@ -40,8 +38,6 @@
     --bg-color: #fff1f7;
     --bg-color-accent-title: #ff8dcb;
     --bg-image: url(../images/cover-image-light.png);
-    --header-font-size-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-    --header-font-size-desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     --button-hover-color: rgba(50, 49, 45, 0.40);
     --link-condition-borders-color: var(--text-color-main, #353430);
     --link_color_shadow: #ff8dcb;
